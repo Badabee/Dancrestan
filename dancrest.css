@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.landing{
+    width: 100vw;
+    height: 80vh; 
+    background: url("img/pepper.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 80vw;
+    margin: auto;
+    padding-top: 50px;
+}
+
+header{
+    padding-top: 15px;
+    min-height: 45px;
+}
+
+header a {
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+header ul {
+   margin: 0px;
+   padding: 0px;
+}
+
+header li {
+    list-style: none;
+    display: inline;
+    padding: 0 20px 0 20px;
+   
+}
+
+header #logo, #company {
+ float: left;
+ margin: 0px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header .highlight{
+    color:#ffffff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+header a:hover{
+    color: indianred;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#text{
+    color:#ffffff;
+    padding-top: 60px;
+    font-size: 40px;
+}
+
+.cards{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 22em;
+    grid-gap: 15px;
+    text-align: center;
+}
+
+.card1, .card2, .card3{
+    padding: 40px;
+    display: block;
+    background-color: #fafafa;
+    text-align: center;
+    box-shadow: 5px 10px #ffffff;
+}
+
+.card1 img {
+    width: 27%;
+    height: 27%;
+    padding-bottom: 10px;
+}
+
+.card2 img {
+    width: 27%;
+    height: 27%;
+    padding-bottom: 10px;
+}
+
+.card3 img {
+    width: 27%;
+    height: 27%;
+    padding-bottom: 10px;
+}
+
+.design{
+    margin: 12px 0px 15px 0px;
+}
+
+.mover{
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: cadetblue;
+}
+
+button:hover {
+    color: white;
+    background-color: blue;
+}
+
+.hello{
+    width: 80vw;
+    margin: 80px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 22em;
+    grid-gap: 38px;
+    line-height: 25px;
+}
+
+.hello h1{
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.hello1{
+    margin: 10px 0px;
+    line-height: 25px;
+    padding: 40px 0px;
+}
+
+.hello1 p{
+    margin-bottom: 30px;
+}
+
+.hello2{
+    background: url(img/hong-kong.jpg);
+}
+
+.title{
+    width: 80vw;
+    margin: auto;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.projects1{
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 22em;
+}
+
+.projects1 div:nth-child(1){
+    background: url(img/hong-kong.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projects1 div:nth-child(2){
+    background: url(img/pepper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.projects1 div:nth-child(3){
+    background: url(img/hong-kong.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.projects1 div:nth-child(4){
+    background: url(img/pepper.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
