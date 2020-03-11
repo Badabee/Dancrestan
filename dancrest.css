@@ -92,10 +92,6 @@ header a:hover{
     background-color: #fafafa;
     text-align: center;
     box-shadow: 5px 10px #ffffff;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    z-index: -1;
 }
 
 .card1 img {
