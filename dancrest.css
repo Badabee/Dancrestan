@@ -76,7 +76,12 @@ header a:hover{
     font-size: 40px;
 }
 
+.card{
+    margin-top: -100px;
+}
+
 .cards{
+    margin-top: -100px;
     width: 80vw;
     margin: auto;
     display: grid;
@@ -87,6 +92,7 @@ header a:hover{
 }
 
 .card1, .card2, .card3{
+   
     padding: 40px;
     display: block;
     background-color: #fafafa;
@@ -124,6 +130,7 @@ button {
     padding: 10px 30px;
     border-radius: 15px;
     color: cadetblue;
+    cursor: pointer;
 }
 
 button:hover {
@@ -262,7 +269,7 @@ button:hover {
 .footing{
     width: 100vw;
     height: 30vh;
-    background-color: rgb(255, 243, 205);
+    background-color: rgba(204, 204, 204, 0.2);
     font-family:'Courier New', Courier, monospace;
 }
 
