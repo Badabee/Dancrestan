@@ -49,19 +49,16 @@ header li {
 }
 
 header .highlight {
- float: left;
- margin: 0px;
+    float: left;
+    margin: 0px;
+    color:#ffffff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
 }
 
 header nav{
     float: right;
     margin-top: 10px;
-}
-
-header .highlight{
-    color:#ffffff;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
 }
 
 header a:hover{
@@ -95,7 +92,8 @@ header a:hover{
    
     padding: 40px;
     display: block;
-    background-color: #fafafa;
+    /*background-color: #fafafa;*/
+    background-color: #b0e0e6;
     text-align: center;
     box-shadow: 5px 10px #ffffff;
 }
@@ -128,9 +126,12 @@ header a:hover{
 
 button {
     padding: 10px 30px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: cadetblue;
-    cursor: pointer;
+    background-color: white;
+    font-size: 15px;
+    cursor: pointer; 
+    border-color: #b0e0e6;
 }
 
 button:hover {
@@ -227,6 +228,7 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 7em;
     grid-gap: 10px;
+    background-color: white;
 }
 
 .safety, .environment, .risk, .design{
@@ -242,7 +244,7 @@ button:hover {
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
     grid-template-rows: 25em;
-    background-color:  #fafafa;
+    background-color:  #b0e0e6;
 }
 
 .people1{
@@ -261,7 +263,7 @@ button:hover {
 
 .people2{
     background: url(img/girl.jpg);
-    background-position: start;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -269,7 +271,8 @@ button:hover {
 .footing{
     width: 100vw;
     height: 30vh;
-    background-color: rgba(204, 204, 204, 0.2);
+    /*background-color: rgba(204, 204, 204, 0.2);*/
+    background-color: #ffffff;
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -304,7 +307,7 @@ button:hover {
     height: 25%;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (max-width: 600px) {
    .landing{
        height: 70vh;
    }
@@ -315,10 +318,12 @@ button:hover {
        padding-top: 5px;
    }
 
-   header .highlight {
-   text-align: center;
-   margin: auto;
-   padding-left: 150px;
+  header .highlight {
+   float: none;
+   display: block;
+    width: 60vw;
+    margin: auto;
+
    }
 
    header ul{
@@ -327,6 +332,8 @@ button:hover {
     width: 100vw;
     margin: auto;
    }
+
+
 
    #text{
        font-size: 30px;
@@ -344,7 +351,24 @@ button:hover {
        grid-template-columns: 1fr;
        grid-template-rows: 25em;
        grid-auto-rows: 25em;
+       grid-gap: 5px;
+       margin: 0px auto 50px auto;
    }
+
+   .hello h1{
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.hello1{
+    margin: 10px 0px;
+    line-height: 22px;
+    padding: 40px 0px;
+}
+
+.hello1 p{
+    margin-bottom: 20px;
+}
 
    .projects1, .people{
     display: grid;
@@ -361,9 +385,24 @@ button:hover {
     grid-template-columns: 1fr;
     grid-template-rows: 8em;
     grid-auto-rows: 8em;
-    grid-gap: 10px;
+    grid-gap: 5px;
     width: 80vw;
    }
+
+   .grow{
+    padding: 20px 0px;
+    font-size: 40px;
+}
+
+   .safety, .environment, .risk, .design{
+    line-height: 25px;
+}
+
+    .people{
+    grid-template-columns: 1fr;
+    grid-template-rows: 22em; 
+    grid-gap: 10px;
+    }
 
    .people1a, .people1 p{
     margin: 10px 30px;
@@ -378,11 +417,19 @@ button:hover {
        grid-gap: 0px;
        font-size: 10px;
        width: 100vw;
-       margin: 10px auto;
+       margin: 5px auto;
    }
 
    .footing{
-       margin-top: 10px;
+       padding-bottom: 0px;
+       height: 31vh;
+   }
+
+   .icon{
+       padding-top: 5px;
+       padding-bottom: 0px;
+       margin: 0px auto;
+       grid-template-rows: 2.5em;
    }
 }
 
